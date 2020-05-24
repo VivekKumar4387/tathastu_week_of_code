@@ -1,0 +1,15 @@
+runp1 = int(input("enter score of player 1 in 60 balls"))
+runp2 = int(input("enter score of player 2 in 60 balls"))
+runp3 = int(input("enter score of player 3 in 60 balls"))
+strike_rate1 = runp1*100 /60
+strike_rate2 = runp2*100 /60
+strike_rate3 = runp3*100 /60
+print("strike rate of player 1=",strike_rate1)
+print("strike rate of player 2=",strike_rate2)
+print("strike rate of player 3=",strike_rate3)
+print("runs score by player 1 if he played 60 balls more=",runp1*2)
+print("runs score by player 2 if he played 60 balls more=",runp2*2)
+print("runs score by player 3 if he played 60 balls more=",runp3*2)
+print("max six can be hit by player 1=",runp1//6)
+print("max six can be hit by player 2=",runp2//6)
+print("max six can be hit by player 3=",runp3//6)
